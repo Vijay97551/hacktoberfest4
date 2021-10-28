@@ -10,6 +10,9 @@ int main()
     {
         cin>>a[i];
     }
+    int p,q=0;
+    for(int j=0;j<p;j++)
+        q++;
     int max_so_far = a[0];
     int curr=a[0];
     for(int i=1; i<n; i++)
